@@ -11,4 +11,4 @@ Para cadastrar os funcionários
 Cenario: Logar no site
     Dado que esteja no link do site
     Quando logar com a senha, acesso a pagina
-    Entao clico o link PIM e cadastro um novo funcionario
+    Entao validar login e senha

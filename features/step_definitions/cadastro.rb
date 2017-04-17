@@ -10,11 +10,11 @@ Quando(/^logar com a senha, acesso a pagina$/) do
    click_button('btnLogin')
 end
 
-Entao(/^clico o link PIM e cadastro um novo funcionario$/) do
-  find(:xpath, ".//*[@id='menu_pim_viewPimModule']").hover
-  find(:xpath, ".//*[@id='menu_pim_addEmployee']").click
+Entao(/^validar login e senha$/) do
+  find(:id, "menu_pim_viewPimModule").hover
+  find(:id, "menu_pim_addEmployee").click
   fill_in 'firstName', :with => "Camila"
-  fill_in 'middleName', :with => "S"
+  fill_in 'middleName', :with => "Sottssza"
   fill_in 'lastName', :with => "Nascimento"
   click_button('btnSave')
 end

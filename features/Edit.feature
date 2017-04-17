@@ -11,4 +11,4 @@ Para alterar o cadastro do funcionário
 Cenario: Editar o cadastro do funcionario
     Dado que esteja com os dados do funcionario cadastrado
     Quando localizar o funcionario
-    Entao altero os dados e clico o botao para salvar
+    Entao validar alteracao dos dados do funcionario
